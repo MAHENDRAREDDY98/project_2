@@ -1,0 +1,16 @@
+.contact {
+    margin: 5em;
+
+    &__h2 {
+        font-weight: 700;
+        color: #333;
+    }
+
+    .form-control {
+        border-radius: 0;
+    }
+
+    .btn {
+        border-radius: 0;
+    }
+}

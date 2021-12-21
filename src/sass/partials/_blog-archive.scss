@@ -1,0 +1,26 @@
+.blog-archive {
+    margin: 5em 0;
+
+    &__item {
+        margin-top: 3em;
+        border-bottom: solid 2px #eee;
+
+        &__h2 {
+            font-size: 2.5em;
+            font-weight: 900;
+        }
+
+        &__p {
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+
+        &__meta {
+            margin-bottom: 3em;
+
+            &__author-label {
+                color: gray;
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+header {
+    position: relative;
+    background: url("/src/images/header-bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+
+    &:after {
+        content: "";
+        background: rgba(#000, .25);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        top: 0;
+    }
+}
+
+// bootstrap navbar override
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 2.8em;
+    color: white !important;
+    z-index: 3;
+}
+
+.navbar-nav {
+    z-index: 3;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 700;
+    color: white !important;
+    text-transform: uppercase;
+    transition: all 0.25s;
+    font-size: 1em;
+
+    &:hover {
+        color: #f4f4f4 !important;
+    }
+}
+
+.header-title {
+    position: relative;
+
+    padding: {
+        top: 15em - 6.8em;
+        bottom: 15em;
+    }
+
+    color: white;
+    text-align: center;
+    z-index: 3;
+
+    // modifier for blog pabe
+    &--blog-page {
+        text-align: left;
+    }
+
+    &__h1 {
+        font-size: 3.5em;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    &__p {
+        font-size: 1.6em;
+    }
+
+    &__meta {
+        span {
+            font-size: 1.2em;
+        }
+
+        &__author {
+            a {
+                color: white !important;
+            }
+        }
+    }
+}

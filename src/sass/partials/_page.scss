@@ -1,0 +1,17 @@
+.blog-single {
+    margin: 5em 0;
+
+    &__h1 {
+        font-size: 2.5em;
+        font-weight: 900;
+        margin-bottom: 1.6em;
+        line-height: 1.5;
+    }
+
+    &__p {
+        font-size: 1.3em;
+        font-weight: 300;
+        line-height: 2;
+        margin-bottom: 20px;
+    }
+}
